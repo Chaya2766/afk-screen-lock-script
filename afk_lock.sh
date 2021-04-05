@@ -1,5 +1,5 @@
 echo "if you're running this for the first time you might be asked to install 1 or 2 things"
-gnome-screensaver -h || apt install gnome-screensaver
+gnome-screensaver -h || sudo apt install gnome-screensaver
 xdotool --help || sudo apt install xdotool
 
 #config part
